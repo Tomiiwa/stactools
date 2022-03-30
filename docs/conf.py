@@ -22,7 +22,7 @@ from stactools.core import __version__  # noqa
 # -- Project information -----------------------------------------------------
 
 project = "stactools"
-copyright = "2020, stac-utils"
+copyright = "2022, stac-utils"
 author = "stac-utils"
 
 # The short X.Y version
@@ -41,10 +41,10 @@ release = __version__
 # ones.
 extensions = [
     "sphinx.ext.autodoc",
-    "sphinx.ext.viewcode",
-    "sphinx.ext.napoleon",
-    "sphinx.ext.githubpages",
     "sphinx.ext.extlinks",
+    "sphinx.ext.githubpages",
+    "sphinx.ext.napoleon",
+    "sphinx.ext.viewcode",
     "sphinxcontrib.fulltoc",
     "sphinx_click",
     "nbsphinx",
